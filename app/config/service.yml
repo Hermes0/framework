@@ -1,0 +1,12 @@
+controller.resolver:
+    class: Component\Controller\ControllerResolver
+    arguments: ['@router', '@container']
+
+router:
+    class: Component\Router
+    arguments: ['@config.loader']
+
+config.loader: 
+    class: Component\ConfigLoader\YamlLoader
+
+

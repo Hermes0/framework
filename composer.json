@@ -1,0 +1,17 @@
+{
+    "name": "hermes/farmework",
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+            }
+    },
+    "authors": [
+        {
+            "name": "hermes",
+            "email": "above6000@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
+}
